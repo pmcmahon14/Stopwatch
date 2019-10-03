@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Stopwatch</title>
+    <script src="script.js"></script>
 </head>
 <body>
-<p>Stopwatch</p>
+<fieldset>
+    <legend>Stop Watch</legend>
+    <a href="#" id="start" onclick="startStopwatch()">Start</a>&nbsp;
+
+    <a href="#" id="stop" onclick="stopStopwatch()">Stop</a>&nbsp;
+
+    <a href="#" id="reset" onclick="resetStopwatch()">Reset</a>&nbsp;
+
+    <span id="s_minutes">00</span>:
+    <span id="s_seconds">00</span>:
+    <span id="s_ms">000</span>
+</fieldset>
 </body>
 </html>
